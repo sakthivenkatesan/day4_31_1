@@ -20,5 +20,7 @@ public class BasicInheritance
 		b ob = new b();
 		b.print();
 		b.printb();
+		b.printb();
+
 	}
 }

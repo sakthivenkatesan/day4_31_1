@@ -1,27 +1,27 @@
 package com.capgemini.oops;
 
-class universe
+interface universe
 {
 	void uprint()
 	{
 		System.out.println("My Universe");
 	}
 }
-class solar extends universe
+class solar 
 {
 	void sprint()
 	{
 		System.out.println("Our Solar System");
 	}
 }
-class earth extends solar
+class earth extends solar implements universe
 {
 	void eprint()
 	{
 		System.out.println("This earth");
 	}
 }
-public class MultiLevelInheritance 
+public class MultipleInheritance 
 {
 	public static void main(String [] args)
 	{
